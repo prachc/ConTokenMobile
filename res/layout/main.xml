@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/token_storage_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Token Storage:"
+        android:textColor="#00FF00"/>
+    <TextView
+        android:id="@+id/token_storage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NULL"
+        android:layout_below="@id/token_storage_label"/>
+    <TextView
+        android:id="@+id/rcvflag_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Receive Flag:"
+        android:layout_below="@id/token_storage"
+        android:textColor="#00FF00"/>
+    <TextView
+        android:id="@+id/rcvflag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NULL"
+		android:layout_below="@id/rcvflag_label"/>
+	<TextView
+        android:id="@+id/status_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Server Response:"
+        android:layout_below="@id/rcvflag"
+        android:textColor="#00FF00"/>
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NULL"
+		android:layout_below="@id/status_label"/>
+</RelativeLayout>

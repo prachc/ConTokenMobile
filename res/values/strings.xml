@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConTokenMobile</string>
+    <string name="file">File</string>
+    <string name="connect">Connect</string>
+    <string name="options">Options</string> 
+    <string name="conflag">ConFlag</string> 
+    <string name="rcvflag">RcvFlag</string>
+    <string name="file1">token_storage</string>
+    <string name="file2">rcvflag_storage</string> 
+</resources>
